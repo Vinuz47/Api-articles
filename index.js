@@ -4,7 +4,7 @@ const app = express();
 //const  user = require('../routers/users');
 //const  student = require('../routers/students');
 const {MongoClient} = require("mongodb");
-const findAllElements = require("./findItemsInDb");
+const findAllElements = require("./database/findItemsInDb");
 // const uri = "mongodb://localhost:27017";
 const client = new MongoClient(uri);
 

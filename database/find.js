@@ -60,5 +60,5 @@ const findElements = async function find() {
     }
 }
 
-module.exports = mongoose.model('findItemsInDb',findElements);
+module.exports =  { findElements };
 
