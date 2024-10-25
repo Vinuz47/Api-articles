@@ -1,12 +1,16 @@
-
+const mongoose = require("mongoose");
+const product = require('./products')
 const express = require('express');
 const app = express();
 //const  user = require('../routers/users');
 //const  student = require('../routers/students');
-const {MongoClient} = require("mongodb");
-const findAllElements = require("./database/findItemsInDb");
-// const uri = "mongodb://localhost:27017";
-const client = new MongoClient(uri);
+// const {MongoClient} = require("mongodb");
+// // const uri = "mongodb://localhost:27017";
+// const client = new MongoClient(uri);
+const databaseName = 'sampleData';
+mongoose.connect(`mongodb+srv://kandageTest:kkkkkk@cluster0.jkks3.mongodb.net/${databaseName}?retryWrites=true&w=majority&appName=Cluster0`)
+.then(()=>console.log('Connected'))
+.catch((e)=>console.log(e));
 
 //app.use(log); //middleware usings
 // app.use('/api/users',user);  
@@ -18,7 +22,7 @@ const client = new MongoClient(uri);
 app.get('/users',async (req,res)=>{
     try{
         // Call findAllDetails to get the data
-        const jsondata = await findAllDetails();
+        const jsondata = await find();
 
         //send data in JSON format to response
         res.send(jsondata);
@@ -79,6 +83,18 @@ app.get('/hi',(req,res)=>{
         ]        
     });
 })
+
+async function find() {
+    try{
+        const findAllProducts = await product.find();
+
+        console.log(findAllProducts);
+
+        return findAllProducts;
+    }catch(err){
+        console.log(err);
+    }
+}
 
 //find elements in the database
 async function findAllDetails() {
