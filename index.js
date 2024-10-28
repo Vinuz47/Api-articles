@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
-const article = require('./articleSch')
+const article = require('./insertData/articleSch')
 const express = require('express');
 const app = express();
+const insertData = require("./insertData/insertArticleData");
 //const  user = require('../routers/users');
 //const  student = require('../routers/students');
 // const {MongoClient} = require("mongodb");
@@ -10,7 +11,10 @@ const app = express();
 
 const databaseName = 'article-database';
 mongoose.connect(`mongodb+srv://kandageTest:kkkkkk@cluster0.jkks3.mongodb.net/${databaseName}?retryWrites=true&w=majority&appName=Cluster0`)
-.then(()=>console.log('Connected'))
+.then(()=>{console.log('Connected');
+    insertData();
+
+})
 .catch((e)=>console.log(e));
 
 app.get('/all',async (req,res)=>{
@@ -47,43 +51,9 @@ async function find() {
     }
 }
 
-async function run() {
-    try{
-        const newArticle = await article.create(
-            
-            {
-             articleDetails :   [
-                    {
-                     title:" vfd",
-                     author: "yahoo",
-                     description:"vsdfbsfnbn",
-                     imgUrl: "frgenedne",
-                     university: "fbsb",
-                     date:"dnvjin"
-                    },
-                    {
-                     title:" fwgwgw",
-                     author: "geewgweg",
-                     description:"wergweg",
-                     imgUrl: "ewgfgwe",
-                     university: "grwjrjr",
-                     date:"gehehethe"
-                    }
-     
-     
-                 ]
-            }
-            
-          
-    );
-        console.log(newArticle);
-    }catch(err){
-        console.log(`Error: ${err}`);
-    }
-    
-}
 
-run();
+
+
 
 
 
