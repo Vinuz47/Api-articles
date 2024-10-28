@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const product = require('./products')
+const article = require('./articleSch')
 const express = require('express');
 const app = express();
 //const  user = require('../routers/users');
@@ -7,19 +7,13 @@ const app = express();
 // const {MongoClient} = require("mongodb");
 // // const uri = "mongodb://localhost:27017";
 // const client = new MongoClient(uri);
-const databaseName = 'sampleData';
+
+const databaseName = 'article-database';
 mongoose.connect(`mongodb+srv://kandageTest:kkkkkk@cluster0.jkks3.mongodb.net/${databaseName}?retryWrites=true&w=majority&appName=Cluster0`)
 .then(()=>console.log('Connected'))
 .catch((e)=>console.log(e));
 
-//app.use(log); //middleware usings
-// app.use('/api/users',user);  
-// app.use('/api/students',student);
-// app.get('/',(req,res)=>{
-//     res.send({msg:'hello guys user Get'});
-// })
-
-app.get('/users',async (req,res)=>{
+app.get('/all',async (req,res)=>{
     try{
         // Call findAllDetails to get the data
         const jsondata = await find();
@@ -41,49 +35,6 @@ app.post('/userspost',(req,res)=>{
     res.send({msg:'hello guys user POST'});
 })
 
-app.get('/hi',(req,res)=>{
-    res.send({
-        data:[
-            {
-                "title": "Food Waste",
-                "shortDescription": "bla bla bla...",
-                "longDescription": "ya ya ya ya ya ya ya ya....",
-                "category": "Food",
-                "publishDate": "20-07-2018",
-                "imgUrl": "image path..."
-        
-            },
-            {
-                "title": "Food Waste",
-                "shortDescription": "bla bla bla...",
-                "longDescription": "ya ya ya ya ya ya ya ya....",
-                "category": "Food",
-                "publishDate": "20-07-2018",
-                "imgUrl": "image path..."
-        
-            },
-            {
-                "title": "Food Waste",
-                "shortDescription": "bla bla bla...",
-                "longDescription": "ya ya ya ya ya ya ya ya....",
-                "category": "Food",
-                "publishDate": "20-07-2018",
-                "imgUrl": "image path..."
-        
-            },
-            {
-                "title": "Food Waste",
-                "shortDescription": "bla bla bla...",
-                "longDescription": "ya ya ya ya ya ya ya ya....",
-                "category": "Food",
-                "publishDate": "20-07-2018",
-                "imgUrl": "image path..."
-        
-            }  
-        ]        
-    });
-})
-
 async function find() {
     try{
         const findAllProducts = await product.find();
@@ -96,34 +47,72 @@ async function find() {
     }
 }
 
-//find elements in the database
-async function findAllDetails() {
+async function run() {
     try{
-        // const database = client.db('mydb');
-        // const collection = database.collection('products');
+        const newArticle = await article.create(
+            
+            
+            [
+               {
+                title:" vfd",
+                author: "yahoo",
+                description:"vsdfbsfnbn",
+                imgUrl: "frgenedne",
+                university: "fbsb",
+                date:"dnvjin"
+               },
+               {
+                title:" fwgwgw",
+                author: "geewgweg",
+                description:"wergweg",
+                imgUrl: "ewgfgwe",
+                university: "grwjrjr",
+                date:"gehehethe"
+               }
+
+
+            ]
+          
+    );
+        console.log(newArticle);
+    }catch(err){
+        console.log(`Error: ${err}`);
+    }
+    
+}
+
+run();
+
+
+
+//find elements in the database
+// async function findAllDetails() {
+//     try{
+//         // const database = client.db('mydb');
+//         // const collection = database.collection('products');
 
        
-         // Find all documents in the collection
+//          // Find all documents in the collection
          
-         //const result = await collection.find().toArray();//Convert the cursor to an array
-         const result = await findAllElements;
+//          //const result = await collection.find().toArray();//Convert the cursor to an array
+//          const result = await findAllElements;
 
-         console.log(result);
+//          console.log(result);
 
-         // Convert the array of documents to JSON format
-         //const jsonData = await JSON.stringify(result,null,2);// Pretty-print with 2-space indentation
+//          // Convert the array of documents to JSON format
+//          //const jsonData = await JSON.stringify(result,null,2);// Pretty-print with 2-space indentation
          
-        // console.log(jsonData);
+//         // console.log(jsonData);
 
-         return result;
+//          return result;
          
-    }catch(err){
-        console.error(err);
-    }
-    finally{
-        await client.close();
-    }
-}
+//     }catch(err){
+//         console.error(err);
+//     }
+//     finally{
+//         await client.close();
+//     }
+// }
 
 //midleware creation
 // function log(req,res,next){
