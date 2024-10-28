@@ -37,11 +37,11 @@ app.post('/userspost',(req,res)=>{
 
 async function find() {
     try{
-        const findAllProducts = await product.find();
+        const findAllArticles = await article.find();
 
-        console.log(findAllProducts);
+        console.log(findAllArticles);
 
-        return findAllProducts;
+        return findAllArticles;
     }catch(err){
         console.log(err);
     }
