@@ -8,7 +8,7 @@ const articleSchema = new mongoose.Schema({
             description: { type: String, required: true },
             imgUrl: { type: String, required: true },
             university: { type: String },
-            date: { type: String }
+            date: { type: Date }
         }
     ]
 });
