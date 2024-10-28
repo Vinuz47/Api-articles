@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const article = require("./articleSch");
 
+
 async function run() {
     try{
         const newArticle = await article.create(

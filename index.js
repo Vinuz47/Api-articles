@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const article = require('./insertData/articleSch')
+const article = require('./insertData/articleSch');
+const cors = require('cors');
 const express = require('express');
 const app = express();
 const insertData = require("./insertData/insertArticleData");
@@ -16,6 +17,10 @@ mongoose.connect(`mongodb+srv://kandageTest:kkkkkk@cluster0.jkks3.mongodb.net/${
 
 })
 .catch((e)=>console.log(e));
+
+// api link : https://apiserverarticles-hsyry33i.b4a.run/all
+
+app.use(cors({ origin: 'http://127.0.0.1:5500' }));
 
 app.get('/all',async (req,res)=>{
     try{
