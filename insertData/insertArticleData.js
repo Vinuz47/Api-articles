@@ -6,8 +6,8 @@ async function run() {
     try{
         const newArticle = await article.create(
             
-            {
-             articleDetails :   [
+            
+             [
                     {
                      title:"The Role of Climate Change in Food Security",
                      author: "Ruwanthika Sandali",
@@ -84,7 +84,7 @@ async function run() {
      
      
                  ]
-            }
+            
             
           
     );
