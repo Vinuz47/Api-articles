@@ -13,7 +13,7 @@ const insertData = require("./insertData/insertArticleData");
 const databaseName = 'article-database';
 mongoose.connect(`mongodb+srv://kandageTest:kkkkkk@cluster0.jkks3.mongodb.net/${databaseName}?retryWrites=true&w=majority&appName=Cluster0`)
 .then(()=>{console.log('Connected');
-    insertData();
+    //insertData();
 
 })
 .catch((e)=>console.log(e));
