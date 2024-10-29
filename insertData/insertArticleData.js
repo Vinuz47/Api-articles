@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const article = require("./articleSch");
 
 
+//function to insert details of articles
 async function run() {
     try{
         const newArticle = await article.create(
