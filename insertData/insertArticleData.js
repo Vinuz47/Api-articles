@@ -15,7 +15,7 @@ async function run() {
                      
                      Innovative solutions, such as urban agriculture and technology-driven farming, can enhance food production and distribution. Ultimately, achieving Zero Hunger is vital not just for individual well-being but also for global stability and economic growth. By prioritizing food security, nations can foster healthier populations, reduce inequalities, and enhance sustainable development, ensuring that everyone has access to sufficient, safe, and nutritious food by 2030.`,
 
-                     imgUrl: "https://drive.google.com/file/d/1MiJwBTivKkcQxnhk4b1arAnJn8RTpn0E/view?usp=sharing",
+                     imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/1.jpg?alt=media&token=a863fc60-38d7-4ef7-b815-25020e4c10b7",
                      university: "Sabaragamuwa University of Sri Lanka",
                      date: new Date("2024-10-24T17:20:11Z")
                     },
@@ -27,7 +27,7 @@ async function run() {
                         `As of 2023, the global hunger crisis remains a pressing concern, with approximately 828 million people affected by chronic hunger. This represents an increase from previous years, highlighting the challenges posed by conflicts, climate change, and economic instability. The Food and Agriculture Organization (FAO) reports that malnutrition is on the rise, with nearly 3.1 billion people unable to afford a healthy diet.Regions most impacted by hunger include sub-Saharan Africa, where one in five people faces food insecurity, and parts of Asia, where rising food prices exacerbate the situation. The COVID-19 pandemic disrupted food supply chains, leading to increased vulnerability among populations already struggling with hunger and malnutrition.Trends indicate that as climate-related disasters become more frequent, agricultural productivity declines, further threatening food security.
                         
                         Additionally, the ongoing conflicts in regions like Ukraine and the Horn of Africa contribute to a volatile food environment.Addressing global hunger requires urgent action, including investments in sustainable agriculture, improved food distribution systems, and policies that promote economic stability. Without concerted efforts, the goal of eradicating hunger will remain out of reach, impacting millions of lives and global development.`,
-                        imgUrl: "https://drive.google.com/file/d/1FlgUB977PNKdwvutxvCJHVd-NKd8NGK-/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/2.jpg?alt=media&token=4f10fa18-0f28-4152-9b2c-eb2253b1c7a9",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-10-23T17:20:11Z")
                        },
@@ -39,7 +39,7 @@ async function run() {
                         `Climate change poses a significant threat to global food security, impacting agricultural productivity and the resilience of food systems. Rising temperatures, unpredictable weather patterns, and increased frequency of extreme events, such as droughts and floods, undermine the ability of farmers to grow crops and raise livestock. As a result, many regions experience reduced yields, leading to heightened food insecurity.In particular, smallholder farmers in developing countries are disproportionately affected, as they often lack the resources to adapt to changing conditions. The FAO estimates that climate change could increase the number of undernourished people by up to 122 million by 2030 if no action is taken. Additionally, shifts in agricultural zones may force farmers to alter traditional practices, which can disrupt local economies and food cultures.To combat these challenges, sustainable agricultural practices, such as agroecology and crop diversification, are essential.
                         
                         Investing in climate-resilient crops and improving water management can also enhance food security. Furthermore, global cooperation is crucial in addressing the root causes of climate change, as well as supporting vulnerable communities. By recognizing the interconnectedness of climate change and food security, we can develop effective strategies to ensure a sustainable food future for all.`,
-                        imgUrl: "https://drive.google.com/file/d/1lPgvpMJy_UL79sj5WAOauEk9G4NED-Kk/view?usp=sharing" , 
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/3.jpg?alt=media&token=d24b0fc9-2157-47d5-ac7f-e307148bed49" , 
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-10-22T17:20:11Z")
                        },
@@ -52,7 +52,7 @@ async function run() {
                         
                         Humanitarian assistance must be prioritized, focusing on immediate food relief while simultaneously working towards long-term solutions. Initiatives that promote peacebuilding and conflict resolution are crucial, as stable environments are necessary for sustainable agricultural practices and food security.International cooperation and funding are essential for supporting affected communities. Programs that empower local farmers, restore agricultural infrastructure, and enhance resilience can help break the cycle of conflict and hunger. By addressing the root causes of both issues, the global community can work towards a future where food security is a reality for all, regardless of their circumstances.`,
 
-                        imgUrl: "https://drive.google.com/file/d/12-gk9D3vDRO-HG5wWcFlqbxtb_kHQwJy/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/4.jpg?alt=media&token=3cb527be-27da-480d-9560-2455c67005e0",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-10-21T17:20:11Z")
                        },
@@ -67,7 +67,7 @@ async function run() {
                         
                         Additionally, digital platforms and mobile applications facilitate better access to market information, enabling farmers to connect directly with consumers and fair trade networks. This reduces the power of intermediaries and ensures that farmers receive fair prices for their products. Collaboration among governments, NGOs, and the private sector is vital for scaling these innovative solutions. Investments in research and development, education, and infrastructure can drive progress toward Zero Hunger. By harnessing creativity and technology, we can transform food systems and ensure that everyone has access to sufficient, safe, and nutritious food.`,
 
-                        imgUrl: "https://drive.google.com/file/d/1vaJaFchJpMhiqT5L5KBvTjGqY17-tMS-/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/5.jpg?alt=media&token=8ce3308c-bc67-47a2-8b32-1e6eaf37b0d8",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-09-17T17:20:11Z")
                        },
@@ -82,7 +82,7 @@ async function run() {
                         
                         Regular screening for malnutrition, providing supplementation, and supporting breastfeeding can significantly improve nutritional outcomes. Innovative solutions, such as fortifying staple foods with essential vitamins and minerals, can also help address deficiencies at the population level. Ultimately, addressing malnutrition is not just a health issue; it is a matter of social and economic development. By prioritizing nutrition, we can enhance individual potential, strengthen communities, and foster sustainable progress toward a healthier, more equitable world.`,
 
-                        imgUrl: "https://drive.google.com/file/d/1WtMifRL8_VbdMZrb1ileT13V1_9kOq1I/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/6.jpg?alt=media&token=c9862cee-e15c-43fc-a6d9-bcae7583da3e",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-09-20T17:20:11Z")
                        },
@@ -95,7 +95,7 @@ async function run() {
                         
                         Programs that focus on teaching women about crop diversification and nutrient-rich foods can improve health outcomes, particularly for children.Furthermore, empowering women entrepreneurs in the agricultural sector can foster economic resilience. Supporting women-owned agribusinesses not only creates jobs but also stimulates local economies, leading to stronger communities. Access to markets, technology, and financial services is crucial for women entrepreneurs to thrive. Ultimately, investing in women in agriculture is a pathway to achieving Zero Hunger. By recognizing and harnessing the potential of women, we can create more resilient food systems, enhance nutrition, and promote sustainable development. Collaborative efforts among governments, NGOs, and the private sector are essential to ensure that women receive the support they need to succeed in agriculture, thereby contributing to global food security.`,
 
-                        imgUrl: "https://drive.google.com/file/d/1M4pDsQTM2hA1p9RHlC5maQnW_FeUE0mo/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/7.jpg?alt=media&token=2587f594-73da-4c00-a37a-43605ee22052",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-08-30T17:20:11Z")
                        },
@@ -110,7 +110,7 @@ async function run() {
 
                         Hunger also contributes to social instability and conflict. Areas plagued by food insecurity are more susceptible to unrest, as communities struggle for limited resources. This instability can deter investment and economic development, creating a vicious cycle that perpetuates poverty and hunger. Addressing hunger is therefore not only a moral imperative but also an economic necessity. Investments in sustainable agriculture, nutrition programs, and social safety nets can improve food security and foster economic growth. By tackling the root causes of hunger, nations can create a more resilient and prosperous future, ultimately leading to enhanced global development and stability. Prioritizing food security will yield benefits that extend beyond individual welfare, contributing to national and global economic progress.`,
 
-                        imgUrl: "https://drive.google.com/file/d/1wpQfxWd_t2wjYmQcyf74LdgvC7FRdR-e/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/8.jpg?alt=media&token=0a424e57-9479-44e1-b830-c74e63eb72b5",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-08-20T17:20:11Z")
                        },
@@ -128,7 +128,7 @@ async function run() {
                         
                         Furthermore, community-supported agriculture (CSA) programs connect consumers directly with local farmers, ensuring a steady supply of fresh produce while fostering a sense of community. These partnerships build trust between producers and consumers, promoting sustainable practices and enhancing local economies. By empowering communities, fostering collaboration, and promoting education, these initiatives can effectively address hunger and malnutrition, paving the way for healthier and more resilient societies.`,
 
-                        imgUrl: "https://drive.google.com/file/d/1R7t_EtA9mu3Zys8kAlgVxhYC3Fuv_2Qv/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/9.jpg?alt=media&token=72c28f94-5ae2-4668-a345-2b4e40406f9f",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-08-20T17:20:11Z")
                        },
@@ -148,7 +148,7 @@ async function run() {
                         
                         In conclusion, economic inequality profoundly impacts food access, leading to significant health disparities. By addressing the root causes of inequality, we can improve food security and promote healthier communities, ultimately contributing to a more equitable society`,
 
-                        imgUrl: "https://drive.google.com/file/d/10b9C_EwBfvBipsVra4ZyvJnEyc1mH-YH/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/10.jpg?alt=media&token=e8a075e9-d946-4dd3-aba4-b8693dc57c32",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-10-10T17:20:11Z")
                        },
@@ -166,7 +166,7 @@ async function run() {
                         
                         Youth engagement is essential in the fight against hunger. By empowering young people to take action through advocacy, community projects, education, and technology, we can build a more sustainable and equitable food system, ensuring that everyone has access to nutritious food.`,
 
-                        imgUrl: "https://drive.google.com/file/d/1Jo4u6c6mjPEcYjvWlZ_IApSsmd64AqWB/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/11.jpg?alt=media&token=d7f121e1-e657-4890-a4b4-79261d14db3c",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-10-12T17:20:11Z")
                        },
@@ -186,7 +186,7 @@ async function run() {
                         
                         Furthermore, education and training for farmers are essential to promote sustainable practices. Governments and NGOs can support this by providing resources, workshops, and access to sustainable seeds and technologies.The future of food depends on adopting sustainable agricultural practices that balance productivity with environmental stewardship. By embracing biodiversity, organic methods, agroecology, and technology, we can create a resilient food system that meets the needs of a growing population while protecting the planet for future generations.`,
 
-                        imgUrl: "https://drive.google.com/file/d/1CS1_pVxu2PiHmafSGLydqBr7Xma1jPQr/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/12.jpg?alt=media&token=74e87f4d-6486-454e-b4c4-53d0d3d5367d",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-10-15T17:20:11Z")
                        },
@@ -204,7 +204,7 @@ async function run() {
                         
                         International organizations are vital in fostering global partnerships for food security. By leveraging resources, expertise, and innovative solutions, they can address hunger and malnutrition effectively, contributing to a more sustainable and equitable world for all. Collaborative efforts are essential to ensure that the global community can work together toward achieving Zero Hunger by 2030.`,
 
-                        imgUrl: "https://drive.google.com/file/d/1uIAKI-a0htHcftWwaGVyR5ntPbcSPU10/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/13.jpg?alt=media&token=a6047887-b4aa-46ec-8fe5-3075dabe9bac",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-10-20T17:20:11Z")
                        },
@@ -222,7 +222,7 @@ async function run() {
                         
                         Tackling food waste is essential in the fight against hunger. By recognizing it as a hidden contributor to food insecurity, we can develop effective strategies to reduce waste and ensure that the food produced reaches those who need it most.`,
 
-                        imgUrl: "https://drive.google.com/file/d/18JfdJLWgWI60Igl6qr_x6VbNDzSSDE6n/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/14.jpg?alt=media&token=6bc7079b-76bb-42f6-8126-098f6c654383",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-10-25T17:20:11Z")
                        },
@@ -260,17 +260,11 @@ async function run() {
                         
                         A comprehensive policy framework that addresses food security from multiple angles is essential for achieving Zero Hunger by 2030. By implementing these recommendations, nations can create sustainable food systems that ensure everyone has access to sufficient, safe, and nutritious food.`,
 
-                        imgUrl: "https://drive.google.com/file/d/1YcKDWOK6JR4cLqBUSRyA4Uzlm2eI5bt8/view?usp=sharing",
+                        imgUrl: "https://firebasestorage.googleapis.com/v0/b/ruu-articles-img.appspot.com/o/15.jpg?alt=media&token=cd59b7a5-0440-4b0b-af87-e9413f788e44",
                         university: "Sabaragamuwa University of Sri Lanka",
                         date: new Date("2024-10-30T17:20:11Z")
                        },
-                    
-     
-     
-                 ]
-            
-            
-          
+                 ]     
     );
         console.log(newArticle);
     }catch(err){
