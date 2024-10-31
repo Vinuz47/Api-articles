@@ -25,12 +25,12 @@ app.use(cors({
     origin: 'https://vinuz47.github.io'
 }));
 
-// Or, if you prefer setting it manually without `cors` package
-app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "https://vinuz47.github.io");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    next();
-});
+// // Or, if you prefer setting it manually without `cors` package
+// app.use((req, res, next) => {
+//     res.header("Access-Control-Allow-Origin", "https://vinuz47.github.io");
+//     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//     next();
+// });
 
 app.get('/all',async (req,res)=>{
     try{
