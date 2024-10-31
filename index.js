@@ -32,6 +32,12 @@ mongoose.connect(`mongodb+srv://kandageTest:kkkkkk@cluster0.jkks3.mongodb.net/${
 //     next();
 // });
 
+app.use(cors({
+    origin: ['https://vinuz47.github.io', 'http://127.0.0.1:5500'], // Add your local origin here
+    methods: ['GET', 'POST'], // Allowed methods
+    allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
+}));
+
 app.get('/all',async (req,res)=>{
     try{
         // Call findAllDetails to get the data
