@@ -20,7 +20,7 @@ mongoose.connect(`mongodb+srv://kandageTest:kkkkkk@cluster0.jkks3.mongodb.net/${
 
 // api link : https://apiserverarticles-hsyry33i.b4a.run/all
 
-app.use(cors({ origin: 'http://127.0.0.1:5500'}));
+
 
 app.get('/all',async (req,res)=>{
     try{
